@@ -1,0 +1,29 @@
+{
+  "name": "fi-backend",
+  "version": "1.0.0",
+  "description": "Backend to get data for my finance manager",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schneidbine1990/FiManagerBackend.git"
+  },
+  "author": "schneidbine1990",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schneidbine1990/FiManagerBackend/issues"
+  },
+  "homepage": "https://github.com/schneidbine1990/FiManagerBackend#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.2",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
